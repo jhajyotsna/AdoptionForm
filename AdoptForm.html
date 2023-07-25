@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adoption Form</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    
+    <form action="noaction.php">
+    
+      <div class="top">
+        <div class="heading">Adoption form</div>
+        <div class="heading2">Fauget Animal Shelter</div>
+      </div>
+      <h3>Your contact information</h3>
+
+      <!-- <div class="line2">Your contact Information</div> -->
+
+      <div class="name">
+        <label for="fname">First Name </label>
+        <input id="fname" type="text" />
+        <label for="lname">Last Name </label>
+        <input id="lname" type="text" />
+      </div>
+
+      <div class="address">
+        <label for="address">Address</label>
+        <textarea name="" id="address"></textarea>
+      </div>
+
+      <!-- <div>hi</div> -->
+
+      <div class="location">
+        <label for="city">City/State </label>
+        <input id="city" type="text" />
+        <label for="zcode">ZipCode </label>
+        <input id="zcode" type="number" />
+      </div>
+
+      <div class="phoneEmail">
+        <label for="phone">Phone Number </label>
+        <input id="phone" type="number" />
+        <label for="email">Email </label>
+        <input id="email" type="email" />
+      </div>
+
+      <h3>Your HOME</h3>
+
+      <div class="home">
+        <h4>What type of house do you live in?</h4>
+        <input type="checkbox" name="" id="apartment" />
+        <label for="apartment">Apartment</label>
+
+        <input type="checkbox" name="" id="house" />
+        <label for="house">House</label>
+
+        <input type="checkbox" name="" id="others" />
+        <label for="others">Others, ____________</label>
+      </div>
+
+      <div class="property">
+        <h4>Do you rent this property? If yes fill in landlord's name</h4>
+        <input type="checkbox" name="" id="no" />
+        <label for="no">NO</label>
+
+        <input type="checkbox" name="" id="yes" />
+        <label for="yes">Yes, Landlord's name</label>
+
+        <input type="text" name="" id="yes" />
+      </div>
+
+      <h3>GENERAL INFORMATION</h3>
+
+      <div class="reason">
+        <h4>Why do you want to adopt this pet?</h4>
+
+          <div class="child">
+            <input type="checkbox" name="" id="cChild" />
+            <label for="cChild">Companion for Child</label>
+          </div>
+
+          <div class="security">
+            <input type="checkbox" name="" id="security" />
+            <label for="security">Security</label>
+          </div>
+        </div>
+
+        <div class="pet">
+            <div class="otherPet">
+                <input type="checkbox" name="" id="oPet" />
+                <label for="oPet">Companion for other pet</label>
+              </div>
+    
+              <div class="housePet"> 
+                <input type="checkbox" name="" id="hPet" />
+                <label for="hPet">House Pet</label>
+              </div>
+  </div>
+
+  <div class="selfBreed">
+    <div class="self">
+        <input type="checkbox" name="" id="cSelf" />
+        <label for="cSelf">Companion for self</label>
+      </div>
+
+      <div class="breeding"> 
+        <input type="checkbox" name="" id="breeding" />
+        <label for="breeding">Breeding</label>
+      </div>
+  </div>
+
+  <div class="animalOthers">
+    <div class="animal">
+        <input type="checkbox" name="" id="sAnimal" />
+        <label for="sAnimal">Service animal</label>
+    </div>
+    <div class="others">
+        <input type="checkbox" name="" id="others2" />
+        <label for="others2">Others, ____________</label>
+    </div>
+  </div>
+
+  <div class="previous">
+    <h4>Have you previously owned pets?</h4>
+    <input type="checkbox" name="" id="noOwned"/>
+    <label for="noOwned">NO</label>
+    <input type="checkbox" name="" id="yesOwned"/>
+    <label for="yesOwned">YES</label>
+    </div>
+
+    <div class="pAnimal">
+        <h4>Please list any animals name you've had in previous 5 years</h4>
+        <textarea name="pAnimal" id=""></textarea>
+    </div>
+
+    <div class="button">
+        <button class="btn">Submit</button>
+    </div>
+   
+    </form>
+
+   
+    
+  </body>
+</html>
