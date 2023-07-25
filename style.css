@@ -1,0 +1,244 @@
+body {
+  /* background-color: rgb(70, 164, 131); */
+  font-family: "Chivo Mono", monospace;
+  padding: 0px 0px;
+}
+
+form {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0px;
+  padding-right: 30px;
+  background-image: url('dog.png');
+  background-size: cover;
+  /* color: rgb(245, 245, 239); */
+}
+
+.heading {
+  /* border: 2px solid red; */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.heading2 {
+  /* border: 2px solid yellow; */
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  left: 200px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+h3 {
+  /* border: 2px solid black; */
+  display: inline-block;
+  padding: 3px 3px;
+  margin: 2px;
+}
+
+.name {
+  /* border: 2px solid rgb(37, 232, 37); */
+  padding: 2px 10px;
+  margin: 5px auto;
+}
+
+.name input {
+  /* background-color: aquamarine; */
+  padding-left: 34px;
+}
+
+.address {
+  /* border: 2px solid red; */
+  padding: 1px 12px;
+  display: block;
+  margin: 2px auto;
+}
+.address textarea {
+  /* border: 2px solid green; */
+  width: 75%;
+  padding: 5px 37px;
+}
+
+.location {
+  /* border: 2px solid rgb(203, 241, 66); */
+  padding: 2px 12px;
+  margin: 2px auto;
+}
+
+.location input {
+  /* background-color: aquamarine; */
+  /* padding-left: 37px; */
+  padding: 2px 21px;
+}
+
+.phoneEmail {
+  /* border: 2px solid rgb(12, 129, 237); */
+  padding: 3px 12px;
+  margin: 3px auto;
+}
+.phoneEmail input {
+  /* padding-left: 37px; */
+  padding: 2px 21px;
+}
+
+.home {
+  /* border: 2px solid red; */
+  padding: 4px 15px;
+  margin: 0px auto;
+}
+.home h4 {
+  /* border: 2px solid yellow; */
+  margin: 2px auto;
+}
+
+.property {
+  /* border: 2px solid rgb(49, 226, 87); */
+  padding: 4px 15px;
+  margin: -3px auto;
+}
+.property h4 {
+  /* border: 2px solid yellow; */
+  margin: 2px auto;
+}
+
+.property input {
+  /* border: 2px solid rgb(60, 237, 60); */
+  padding: 1.5px 50px;
+}
+
+.reason {
+  /* class for first option line*/
+  /* border: 2px solid rgb(166, 86, 242); */
+  padding: 5px 10px;
+}
+
+.reason h4 {
+  /* border: 2px solid yellow; */
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+
+.child {
+  /* border: 2px solid red; */
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+}
+.security {
+  /* border: 2px solid rgb(56, 234, 91); */
+  width: 20%;
+  position: absolute;
+  left: 300px;
+}
+
+.pet {
+  /* class for second option line*/
+  /* border: 2px solid rgb(13, 84, 132); */
+  padding: 12px 5px;
+  margin: 5px auto;
+}
+
+.otherPet {
+  /* border: 2px solid rgb(219, 23, 144); */
+  width: 20%;
+  display: block;
+  position: absolute;
+  margin: 2px 5px;
+}
+.housePet {
+  /* border: 2px solid rgb(56, 234, 91); */
+  width: 20%;
+  position: absolute;
+  left: 290px;
+  margin: 2px 10px;
+}
+
+.selfBreed { /* class for third option line*/
+  /* border: 2px solid rgb(13, 84, 132); */
+  padding: 10px 5px;
+  margin: 0px auto;
+}
+.self {
+  /* border: 2px solid rgb(219, 23, 144); */
+  width: 20%;
+  display: block;
+  position: absolute;
+  margin: -1px 5px;
+}
+.breeding {
+  /* border: 2px solid rgb(56, 234, 91); */
+  width: 20%;
+  position: absolute;
+  left: 290px;
+  margin: -1px 10px;
+}
+
+.animalOthers { /* class for third option line*/
+  /* border: 2px solid rgb(13, 84, 132); */
+  padding: 10px 5px;
+  margin: 0px auto;
+}
+
+.animal {
+  /* border: 2px solid rgb(219, 23, 144); */
+  width: 20%;
+  display: block;
+  position: absolute;
+  margin: 0px 5px;
+}
+.others {
+  /* border: 2px solid rgb(56, 234, 91); */
+  width: 20%;
+  position: absolute;
+  left: 290px;
+  margin: 0px 10px; 
+}
+
+.previous { 
+  /* border: 2px solid rgb(13, 84, 132); */
+  padding: 0px 15px;
+  margin: -3px auto;
+  display: flex;
+  align-items: center;
+}
+
+.previous input{
+  margin: -15px 9px ;
+}
+
+.pAnimal{
+  /* border: 2px solid yellowgreen; */
+  margin: -30px auto;
+  padding: 0px 15px;
+}
+.pAnimal textarea{
+  /* border: 2px solid red;
+  padding: 10px 200px;
+  margin: -15px auto; */
+  /* border: 2px solid green; */
+  width: 75%;
+  padding: 8px 50px;
+  margin: -10px auto;
+}
+
+.button{
+  /* border: 2px solid orange; */
+  margin: 50px auto;
+  }
+
+.btn{
+  /* border: 2px solid green; */
+  padding: 5px 20px ;
+  width: 20%;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  border-radius: 10px;
+  display: block;
+  margin: 2px auto;
+  
+}
+.btn:hover {
+  background-color: grey;
+}

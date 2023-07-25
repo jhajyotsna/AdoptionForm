@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z-index</title>
+</head>
+<style>
+    .class{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+    }
+
+    #class-1{
+        background-color: aqua;
+    }
+
+    #class-2{
+        background-color: rgb(55, 64, 239);
+        /* display: none;  will hide the element and the space */
+        /* visibility: hidden; will hide the element but will show its empty space */
+    }
+
+    #class-3{
+        background-color: rgb(216, 27, 172);
+    }
+
+    #class-4{
+        background-color: rgb(75, 214, 44);
+    }
+</style>
+<body>
+
+    <div class="class" id="class-1"></div>
+    <div class="class" id="class-2"></div>
+    <div class="class" id="class-3"></div>
+    <div class="class" id="class-4"></div>
+    
+</body>
+</html>

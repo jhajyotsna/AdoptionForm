@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(249, 195, 218);
+        }
+
+        .items{
+            border: 2px solid rgb(10, 6, 6);
+            margin:12px 3px ;
+            padding: 12px 3px;
+            background-color: pink;
+        }
+
+        #fruit{
+            float: left; /*element will move to left*/
+            width: 48%;
+            border: 2px solid green;
+
+        }
+
+        #computer{
+            float: left;
+            width: 48%;
+            border: 2px solid yellow;
+
+        }
+        .para{
+            padding: 22px;
+            color: aliceblue;
+            text-align: justify;
+        }
+
+        #stationary{
+            clear: both; /* clears overiding of float*/
+            border: 2px solid red;
+        }
+        h1{
+            margin: 23px auto;
+            width: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruit" class="items">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum obcaecati voluptates aspernatur quod dignissimos eligendi repellat atque magni, aliquid quaerat cumque corrupti possimus libero sit tempore voluptatem doloribus architecto itaque impedit vitae dolor.</p>
+        </div>
+
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum obcaecati voluptates aspernatur quod dignissimos eligendi repellat atque magni, aliquid quaerat cumque corrupti possimus libero sit tempore voluptatem doloribus architecto itaque impedit vitae dolor.</p>
+        </div>
+
+        <div id="stationary" class="items">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum obcaecati voluptates aspernatur quod dignissimos eligendi repellat atque magni, aliquid quaerat cumque corrupti possimus libero sit tempore voluptatem doloribus architecto itaque impedit vitae dolor.</p>
+        </div>
+
+    </div>
+</body>
+</html>
